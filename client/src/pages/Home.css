@@ -1,0 +1,60 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .hero {
+    background: #edf5ff;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #003366;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background: #0052cc;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .features {
+    padding: 50px 20px;
+    background: #f7f9fc;
+    text-align: center;
+  }
+  
+  .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .feature-box {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366;
+    color: white;
+  }
+  

@@ -1,0 +1,68 @@
+/* client/src/components/AppDownload.css */
+
+.app-download-section {
+  background-color: #f2f6fa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 32px;
+  gap: 48px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.download-left {
+  flex: 1;
+  min-width: 280px;
+  max-width: 600px;
+}
+
+.download-left h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.download-left p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 28px;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.store-btn {
+  height: 52px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.store-btn:hover {
+  transform: scale(1.05);
+}
+
+.download-right {
+  flex: 1;
+  min-width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-image {
+  height: 180px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.qr-image:hover {
+  transform: scale(1.03);
+}

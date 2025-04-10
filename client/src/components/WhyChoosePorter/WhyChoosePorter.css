@@ -1,0 +1,45 @@
+/* client/src/components/WhyChoosePorter.css */
+.why-choose-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 24px;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+  }
+  
+  .why-left {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .why-left h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .why-left ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .why-left li {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .why-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+  }
+  
+  .why-right img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 8px;
+  }
+  

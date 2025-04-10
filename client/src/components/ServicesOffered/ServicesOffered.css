@@ -1,0 +1,59 @@
+/* client/src/components/ServicesOffered.css */
+
+.services-section {
+  padding: 64px 24px;
+  background-color: #f4f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.services-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #222;
+}
+
+.services-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.services-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.service-card {
+  min-width: 160px;
+  scroll-snap-align: start;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 16px;
+}
+
+.service-card p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.5;
+}

@@ -1,0 +1,82 @@
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar.scrolled {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 12px 0;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px; /* Keep content centered but background full */
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #003DA5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar.scrolled .logo {
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1f2937;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar.scrolled .nav-links a {
+  color: #ffffff;
+}
+
+.nav-links a:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.navbar.scrolled .nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.nav-links .support-link {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.navbar.scrolled .support-link {
+  color: #cccccc;
+}
